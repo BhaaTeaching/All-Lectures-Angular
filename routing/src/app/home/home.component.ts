@@ -8,16 +8,8 @@ import {Router} from "@angular/router";
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router : Router) { }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  // onClick = () => {
-  //   this.router.navigate(["/about"]);
-  // }
-
-  onClick = () => {
-    this.router.navigate(["/about"]);
   }
 }
