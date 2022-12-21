@@ -1,0 +1,13 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.phone-number-details {
+  display: flex;
+}
+
+.phone-number {
+ flex-grow: 1;
+}
