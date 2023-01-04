@@ -1,0 +1,18 @@
+<p>book works!</p>
+<div class="container" >
+  <div class="book-container" *ngFor = "let x of bookItems?.items">
+    <img [src]="x.volumeInfo.imageLinks.smallThumbnail">
+    <p>{{x.volumeInfo.title}}</p>
+    <p>{{x.volumeInfo.subtitle}}</p>
+    <p>{{x.volumeInfo.publisher}}</p>
+    <p>{{x.volumeInfo.language}}</p>
+    <p>{{x.volumeInfo.averageRating}}</p>
+    <p>{{x.volumeInfo.pageCount}}</p>
+    <p>{{x.volumeInfo.ratingsCount}}</p>
+    <a [href]="x.volumeInfo.previewLink" _blank>Preview book</a>
+  </div>
+</div>
+
+
+<!--{ items: [{ volumeInfo: { imageLinks: { smallThumbnail: string; }; };-->
+<!--publisher: string;authors: string[]; language: string; title: string; subtitle: string; averageRating: number; previewLink:string; pageCount: number; ratingsCount: number}]; }-->

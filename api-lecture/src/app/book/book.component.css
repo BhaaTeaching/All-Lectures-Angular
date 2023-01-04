@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.book-container {
+  padding: 1rem;
+}
